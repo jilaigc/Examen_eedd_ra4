@@ -10,7 +10,15 @@ package eedd.ra4.videojuego.vo;
  * 
  */
 public class Enemigo extends Personaje {
-    public String tipo;
+    private String tipo;
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
 
 
 }
